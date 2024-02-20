@@ -1,0 +1,27 @@
+
+/* search_form.css */
+.search-box {
+    width: 300px;  /* Adjust the width as needed */
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;  /* Adjust the border radius as needed */
+    outline: none;
+}
+
+.search-box::placeholder {
+    color: #999;
+}
+
+.search-button {
+    width: 80px;
+    height: 40px;
+    background-color: #ff0000;  /* Adjust the background color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 20px;  /* Adjust the border radius as needed */
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
